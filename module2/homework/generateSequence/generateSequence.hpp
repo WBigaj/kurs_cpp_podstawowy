@@ -7,7 +7,7 @@ std::vector<int> generateSequence (int count, int step) {
     }
     std::vector<int> result(count);
     int sum = 0;
-    for (int i = 0;i < count;i++) {
+    for (int i = 0; i < count; i++) {
         sum += step;
         result[i] = sum;
     }
